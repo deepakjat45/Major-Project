@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const Listing = require("./models/listing.js");
 // const ejs = require("ejs");
 
 
@@ -19,6 +20,16 @@ main()
 
 
 
+app.get("/testListing", (req, res) => {
+  let sampleListing = new Listing({
+    title: "villa",
+    description: "",
+    price: 1200,
+    location: "",
+    country: "",
+  });
+  // res.send("hello");
+});
 
 
 app.get("/", (req, res) => {
