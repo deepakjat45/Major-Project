@@ -17,7 +17,6 @@
 
 
 
-
 /* Footer  */
 .f-info-links a {
     text-decoration: none;
@@ -28,8 +27,20 @@
     text-decoration: underline;
 }
 
+.f-info-links, .f-info-socials, .f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
 
 .f-info{
+    text-align: center;
     height: 8rem;
     background-color: #ebebeb;
     display: flex;
