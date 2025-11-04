@@ -1,12 +1,12 @@
-.body {
+body {
     font-family: "Plus Jakarta Sans", sans-serif !important;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
 }
 
 .container {
-    flex: 1;
+    flex: 1 !important;
 }
 
 /* Navbar */
@@ -99,6 +99,12 @@
 
 /* new form page */
 .add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* edit form page */
+.edit-btn {
     background-color: #fe424d !important;
     border: none !important;
 }
