@@ -9,7 +9,7 @@ const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 
 
-//mongoose code
+//mongoose code 
 let MONGO_URL = "mongodb://127.0.0.1:27017/Airbnb";
 
 main()
@@ -23,8 +23,6 @@ main()
 async function main() {
   await mongoose.connect(MONGO_URL);
 }
-
-
 
 
 
