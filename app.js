@@ -98,7 +98,7 @@ app.delete("/listings/:id", async (req, res)=>{
 //   await sampleListing.save();
 //   console.log('smmaple was saved ');
 //   res.send("success");
-// });
+// }); 
 
 
 app.get("/", (req, res) => {
