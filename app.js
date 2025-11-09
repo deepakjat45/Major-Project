@@ -12,6 +12,10 @@ const ejsMate = require("ejs-mate");
 //mongoose code 
 let MONGO_URL = "mongodb://127.0.0.1:27017/Airbnb";
 
+async function main() {
+  await mongoose.connect(MONGO_URL);
+}
+
 main()
   .then(() => {
     console.log("connected to DB");
@@ -20,9 +24,6 @@ main()
     console.log(err);
   });
 
-async function main() {
-  await mongoose.connect(MONGO_URL);
-}
 
 
 
