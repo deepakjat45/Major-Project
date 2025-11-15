@@ -13,11 +13,11 @@ const listingSchema = new Schema({
     url: {
       type: String,
       default:
-        "https://media.istockphoto.com/id/2216161828/vector/placeholder-image-with-mountain-scenery-useful-for-website-design-app-development-or.jpg?s=2048x2048&w=is&k=20&c=qqrR9xH6UVy3YcBpKuaK_q8lLHOWRlJexm-P9XDn2hw=",
+        "https://images.unsplash.com/photo-1603477849227-705c424d1d80?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   },
   price: Number,
-  location: String,
+  location: String, 
   country: String,
 });
 
